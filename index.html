@@ -1,0 +1,195 @@
+<!-- https://www.youtube.com/watch?v=oYRda7UtuhA -->
+<!-- Wünsche: durchscrollen von Projekten -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Data Science Wiesemann</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class= "fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#projects">PROJEKTE</a></li>
+                    <li><a href="#vita">VITA</a></li>
+                    <!-- mit neuen Projekten bitte ändern -->
+                    <!-- <li><a href="#projects">ZUKUNFT</a></li> -->
+                    <li><a href="work_in_progress.html">BLOG</a></li>
+                    <li><a href="work_in_progress.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Be different...</h1>
+            <p>Stehe früh auf.</p>
+            <p>Übernehme Verwantwortung für deine Aufgaben.</p>
+            <p>Ändere, was dich stört.</p>
+            <p>Lerne aus deinen Fehlern.</p>
+            <p>Sei du selbst.</p>
+            <!-- navbar for languages  -->
+            <!-- <nav>
+                <div class="nav-flag">
+                    <ul>
+                        <li><a href="index_de.html"><i class="fi fi-de fis"></i></a></li>
+                        <li><a href="index_fr.html"><i class="fi fi-fr fis"></i></a></li>
+                        <li><a href="index_ro.html"><i class="fi fi-ro"></i></a></li>
+                        <li><a href="index_eng.html"><i class="fi fi-gb-eng"></i></a></li>
+                    </ul>
+                </div>
+            </nav> -->
+        </div>
+    </section>
+<!-- --------Course------  -->
+<!-- verändern zu FUTURE PROJECTS DANKE -->
+<!-- <section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscind elit.</p>
+    <div class="row">
+        <div class="course_col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adi...</p>
+        </div>
+        <div class="course_col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adi...</p>
+        </div>
+        <div class="course_col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adi...</p>
+        </div>
+    </div>
+    
+</section> -->
+<!-- ------- campus ------  -->
+<!-- verändern zu PROJECTS DANKE -->
+<section id= "projects" class="campus">
+    <h1>Projekte</h1>
+    <p>Nach dem Bootcamp von lewagon habe ich begonnen an ersten selbstständigen Projekten zu arbeiten.<br>In Kürze mehr dazu.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/litfasssäule_chisinau-smaller.png"/>
+            <div class="layer">
+                <a href="work_in_progress.html"><h3>PhD in images...<br>Vom Sprachbewusstsein in der Republik Moldau</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/wordcloud_multi_engl.png">
+            <div class="layer">
+                <a href="work_in_progress.html"><h3>WordCloud<br>scraping<br>LDA</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/nlp.png">
+            <div class="layer">
+                <a href="work_in_progress.html"><h3>Next level...</h3></a>
+            </div>
+        </div>
+</section>
+
+<!-- --------VITA--------- -->
+<section id='vita' class="vita">
+    <div class= "vita-row">
+        <div class="vita-col">
+            <img src="images/Bewerbungsfotos/bewerbungsfoto_wiesemann.jpg" alt="Bewerbungsfoto von Janine Wiesemann" title="Janine Wiesemann"/>
+        </div>
+        <div class="vita-col">
+            <p>Während meines Studiums an der Universität Potsdam habe ich ein Jahr in Frankreich und ein halbes Jahr in Rumänien studiert. <br>
+                Mein Studium finanzierte ich größtenteils als studentische Hilfskraft beim rbb und ZDF. <br>
+                Ich schloss einen Bachelor of Education Französisch/Latein und zwei Masterstudiengänge, Master of Arts Romanistische Linguistik <br>
+                und Master of Education Französisch/Latein ab. Neben einem Graecum erwarb ich um die klassische Philologie vollständig für <br>
+                mich abschließen zu können das Hebraicum. 
+                Die Faszination für mein Forschungsprojekt erwarb ich bei einer mehrwöchigen Reise in die Republik Moldau, was <br>
+                auch mein Promotionsthema wurde.  
+                Nach dem Referendariat für die Fächer Französisch und Latein war ich insgesamt 6 Jahre <br>
+                als Lehrerin in Berlin tätig. Nach diversen Fortbildungen (Qualifizierungsreihe für an <br>
+                Führung interessierte Lehrkräfte, Mentoringqualifizierung der Humboldt-Universität zu Berlin und <br>
+                offizielle Facultas-Erweiterung zum Sportlehrer) musste ich erkennen, dass Potenzial von meinem damaligen <br>
+                Arbeitgeber nicht erkannt wird. So begab ich mich auf die andere Seite.             
+            </p>
+        </div>
+        <div class="vita-col">
+<!-- mach die WorCloud horizontal wie Foto und benutze blau, grau, weiß Töne -->
+<!-- convert svg into png -->
+            <img src="images/Eigenschaften_ich-pastel.png" alt="WordCloud mit Eigenschaften von Janine Wiesemann" title="Was mir wichtig ist..."/>
+        </div>
+    <div class="row">
+        <!-- <div class="vita-col">
+            <div id= "contact" class="contact">
+                <h1><a href="m_contact.html"> CONTACT ME</a></h1>
+            </div>
+        <div class="vita-col">
+            <a href="doc/lebenslauf_übung.pdf"><h1>Download CV</h1></a>
+        </div> -->
+        <div class="vita-col">
+            <p class="footer">Für mehr Informationen<br>folgen Sie bitte den Links.</p>
+                    <div class="icons">
+                        <a href="www.linkedin.com/in/janine-wiesemann-171285256"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/JeanneDuPre"><i class="fa fa-github"></i></a>
+                    </div>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- FUTURE -->
+<!-- <section id= "future" class="facitilies">
+    <h1>Our Facilities</h1>
+    <p>LORE JHDKJHIHDJ JHKJHDK</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/background_berlin.png">
+            <h3>World Class Library</h3>
+            <p> JDKJDLKJDLKJF</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/background_berlin.png">
+            <h3>Largest Play Ground</h3>
+            <p> JDKJDLKJDLKJF</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/background_berlin.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p> JDKJDLKJDLKJF</p>
+        </div>
+    </div>
+</section> -->
+
+
+<!-- -------- Impressum --------  -->
+<section class="footer">
+    <p>Impressum bitte noch einfügen DANKE!!!</p>
+</section>
+
+
+
+
+
+<!-- impressum generator: https://www.impressum-generator.de/impressum-generator/ -->
+
+
+
+
+
+<!-- -------JavaScript for Toggle Menu-------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
