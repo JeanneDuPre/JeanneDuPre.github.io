@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
@@ -9,8 +8,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+    <script>  
+    $(function(){ 
+      $("#header").load("header.html");  
+      $("#footer").load("footer.html");  
+    }); 
+    </script> -->
 </head>
-
 <body>
     <section class="header">
         <nav>
@@ -22,18 +27,17 @@
                     <!-- mit neuen Projekten bitte ändern -->
                     <!-- <li><a href="#projects">ZUKUNFT</a></li> -->
                     <li><a href="work_in_progress.html">BLOG</a></li>
-                    <li><a href="work_in_progress.html">KONTAKT</a></li>
+                    <li><a href="#footer">KONTAKT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>Be different...</h1>
-            <p>Stehe früh auf.</p>
-            <p>Übernehme Verwantwortung für deine Aufgaben.</p>
-            <p>Ändere, was dich stört.</p>
-            <p>Lerne aus deinen Fehlern.</p>
-            <p>Sei du selbst.</p>
+            <p>Erweitere deinen Horizont.</p>
+            <p>Mehr als nur Fehler - eine Chance zum Wachstum.</p>
+            <p>Übernehme Verwantwortung für dein Handeln.</p>
+            <p>Befreie dich von unnötigem Ballast.</p>
             <!-- navbar for languages  -->
             <!-- <nav>
                 <div class="nav-flag">
@@ -47,13 +51,13 @@
             </nav> -->
         </div>
     </section>
+
 <!-- ------- projects ------  -->
-<!-- verändern zu PROJECTS DANKE -->
 <section id= "projects" class="projects">
     <h1>Projekte</h1>
-    <p>Nach dem Bootcamp von lewagon habe ich begonnen an ersten selbstständigen Projekten zu arbeiten.<br>In Kürze mehr dazu.</p>
+    <p>Meine ersten, selbstständigen Projekte nach meiner Bootcamp Erfahrung bei lewagon werden hier in  Kürze dargestellt.</p>
 
-    <div class="row">
+    <div class="projects-row">
         <div class="projects-col">
             <img src="images/litfasssäule_chisinau-smaller.png"/>
             <div class="layer">
@@ -80,81 +84,46 @@
         <div class="vita-col">
             <img src="images/Bewerbungsfotos/bewerbungsfoto_wiesemann.jpg" alt="Bewerbungsfoto von Janine Wiesemann" title="Janine Wiesemann"/>
         </div>
-        <div class="vita-col">
-            <p>Während meines Studiums an der Universität Potsdam habe ich ein Jahr in Frankreich und ein halbes Jahr in Rumänien studiert. <br>
+        <div class="vita-col">       
+            <p>Während meines Studiums an der Universität Potsdam habe ich ein Jahr in Frankreich und ein halbes Jahr in Rumänien studiert.
                 Mein Studium finanzierte ich größtenteils als studentische Hilfskraft beim rbb und ZDF. <br>
-                Ich schloss einen Bachelor of Education Französisch/Latein und zwei Masterstudiengänge, Master of Arts Romanistische Linguistik <br>
-                und Master of Education Französisch/Latein ab. Neben einem Graecum erwarb ich um die klassische Philologie vollständig für <br>
-                mich abschließen zu können das Hebraicum. 
-                Die Faszination für mein Forschungsprojekt erwarb ich bei einer mehrwöchigen Reise in die Republik Moldau, was <br>
-                auch mein Promotionsthema wurde.  
-                Nach dem Referendariat für die Fächer Französisch und Latein war ich insgesamt 6 Jahre <br>
-                als Lehrerin in Berlin tätig. Nach diversen Fortbildungen (Qualifizierungsreihe für an <br>
-                Führung interessierte Lehrkräfte, Mentoringqualifizierung der Humboldt-Universität zu Berlin und <br>
-                offizielle Facultas-Erweiterung zum Sportlehrer) musste ich erkennen, dass Potenzial von meinem damaligen <br>
-                Arbeitgeber nicht erkannt wird. So begab ich mich auf die andere Seite.             
+                Ich schloss das Lehramt Französisch/Latein (B.Ed. und M.Ed.) und den Masterstudiengang Romanistische Linguistic (M.A.), Master of Arts Romanistische Linguistik
+                erfolgreich ab. Neben einem Graecum erwarb ich um die klassische Philologie vollständig
+                abschließen zu können das Hebraicum. 
+                Die Faszination für mein Forschungsprojekt erwarb ich bei einer mehrwöchigen Reise in die Republik Moldau.<br>
+                Nach dem Referendariat war ich insgesamt 6 Jahre
+                als Lehrerin in Berlin tätig. Diverse Fortbildungen (Qualifizierungsreihe für an
+                Führung interessierte Lehrkräfte, Mentoringqualifizierung der Humboldt-Universität zu Berlin und
+                offizielle Facultas-Erweiterung zum Sportlehrer, mehrere Fortbildungen zur Digitalisierung) konnten die Arbeitsbedingungen grundsätzlich nicht ändern, sodass ich mich entschloss weiterzugehen.<br>
+                Mein neuer Weg begann mit dem erfolgreichen Abschluss des Bootcampes bei lewagon.             
             </p>
         </div>
         <div class="vita-col">
-<!-- mach die WorCloud horizontal wie Foto und benutze blau, grau, weiß Töne -->
-<!-- convert svg into png -->
             <img src="images/Eigenschaften_ich-pastel.png" alt="WordCloud mit Eigenschaften von Janine Wiesemann" title="Was mir wichtig ist..."/>
-        </div>
-    <div class="row">
-        <!-- <div class="vita-col">
-            <div id= "contact" class="contact">
-                <h1><a href="m_contact.html"> CONTACT ME</a></h1>
-            </div>
-        <div class="vita-col">
-            <a href="doc/lebenslauf_übung.pdf"><h1>Download CV</h1></a>
-        </div> -->
-        <div class="vita-col">
-            <p class="footer">Für mehr Informationen<br>folgen Sie bitte den Links.</p>
-                    <div class="icons">
-                        <a href="www.linkedin.com/in/janine-wiesemann-171285256"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://github.com/JeanneDuPre"><i class="fa fa-github"></i></a>
-                    </div>
-            </p>
-        </div>
+        </div> 
     </div>
 </section>
 
-<!-- FUTURE -->
-<!-- <section id= "future" class="future">
-    <h1>Meine zukünftigen Projekte</h1>
-    <p>LORE JHDKJHIHDJ JHKJHDK</p>
-
-    <div class="row">
-        <div class="future-col">
-            <img src="images/background_berlin.png">
-            <h3>World Class Library</h3>
-            <p> JDKJDLKJDLKJF</p>
-        </div>
-        <div class="future-col">
-            <img src="images/background_berlin.png">
-            <h3>Largest Play Ground</h3>
-            <p> JDKJDLKJDLKJF</p>
-        </div>
-        <div class="future-col">
-            <img src="images/background_berlin.png">
-            <h3>Tasty and Healthy Food</h3>
-            <p> JDKJDLKJDLKJF</p>
-        </div>
-    </div>
-</section> -->
+<!-- mach die WorCloud horizontal wie Foto und benutze blau, grau, weiß Töne -->
+<!-- convert svg into png -->
 
 
 <!-- -------- Impressum --------  -->
-<section class="footer">
-    <p>Impressum bitte noch einfügen DANKE!!!</p>
+<section id= "footer" class="footer">
+    <h4>Für mehr Informationen<br>folgen Sie bitte den Links.</h4>
+    <div id="contact" class="icons">
+        <a href="www.linkedin.com/in/janine-wiesemann-171285256"><i class="fa fa-linkedin"></i></a>
+        <!-- <a href="https://github.com/JeanneDuPre"><i class="fa fa-github"></i></a>
+        <a href="m_contact.html"><h4>CONTACT ME</h4></a>
+        <a href="doc/lebenslauf_übung.pdf"><h4>Download CV</h4></a> -->
+    </div>
 </section>
-
-
-
-
-
 <!-- impressum generator: https://www.impressum-generator.de/impressum-generator/ -->
-
+<section class="impressum">
+    <div>
+        <a href="impressum.html">Impressum</a>
+    </div>
+</section>
 
 
 
