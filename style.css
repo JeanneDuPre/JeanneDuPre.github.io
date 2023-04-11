@@ -138,6 +138,7 @@ nav .fa{
 
 .projects-col{
     flex-basis: 32%;
+    flex-direction: column;
     border-radius: 10px;
     margin-bottom: 50px;
     position: relative;
