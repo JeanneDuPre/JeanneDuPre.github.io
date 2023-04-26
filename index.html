@@ -8,8 +8,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
-    <script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <script>
+        $(document).ready(function(){
+            $(#header).load('header.html');
+            $(#footer).load('footer.html')
+        })
+    </script> -->
+    <!-- <script>
+        $(document).ready(function (){
+            $(".word").click(function(){
+                $("this").animate({
+                    color: '#fff',
+                    fontSize: '2em',
+                })
+            })
+        });
+    </script> -->
+    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
+    <!-- <script>  
     $(function(){ 
       $("#header").load("header.html");  
       $("#footer").load("footer.html");  
@@ -24,8 +41,8 @@
                 <ul>
                     <li><a href="#projects">PROJEKTE</a></li>
                     <li><a href="#vita">VITA</a></li>
-                    <!-- mit neuen Projekten bitte ändern -->
                     <!-- <li><a href="#projects">ZUKUNFT</a></li> -->
+                    <!-- <li><a href="#milestone">MILESTONES</a></li> -->
                     <li><a href="work_in_progress.html">BLOG</a></li>
                     <li><a href="#footer">KONTAKT</a></li>
                 </ul>
@@ -35,9 +52,8 @@
         <div class="text-box">
             <h1>Be different...</h1>
             <p>Erweitere deinen Horizont.</p>
-            <p>Mehr als nur Fehler - eine Chance zum Wachstum.</p>
-            <p>Übernehme Verwantwortung für dein Handeln.</p>
-            <p>Befreie dich von unnötigem Ballast.</p>
+            <p>Begreife Fehler als Chance zum Wachstum.</p>
+            <p>LIFE begins at the end of the comfort zone.</p>
             <!-- navbar for languages  -->
             <!-- <nav>
                 <div class="nav-flag">
@@ -52,42 +68,46 @@
         </div>
     </section>
 
-<!-- ------- projects ------  -->
-<section id= "projects" class="projects">
-    <h1>Projekte</h1>
-    <p>Meine ersten, selbstständigen Projekte nach meiner Bootcamp Erfahrung bei lewagon werden hier in  Kürze dargestellt.</p>
+    <!-- ------- projects ------  -->
+    <section id= "projects" class="projects">
+        <h1>Projekte</h1>
+        <p>Meine ersten, selbstständigen Projekte nach meiner Bootcamp Erfahrung bei lewagon werden hier in  Kürze dargestellt.</p>
 
-    <div class="projects-row">
-        <div class="projects-col">
-            <img src="images/litfasssäule_chisinau-smaller.png"/>
-            <div class="layer">
-                <a href="work_in_progress.html"><h3>PhD in images...<br>Vom Sprachbewusstsein in der Republik Moldau</h3></a>
+        <div class="projects-row">
+            <div class="projects-col">
+                <img src="images/litfasssäule_chisinau-smaller.png" alt="Litfasssäule in Chisinau, Hauptstadt der Republik Moldau"/>
+                <!-- change the images to images with copyright -->
+                <div class="layer">
+                    <a href="work_in_progress.html"><h3>PhD in images...<br>Vom Sprachbewusstsein in der Republik Moldau</h3></a>
+                    <!-- DASHBOARD WITH THE MOST IMPORTANT GRAPHS -->
+                    <!-- TEXT stopwords in romanian and a problem of .... -->
+                    <!-- Linguistic Landscape in Chisinau -->
+                </div>
             </div>
-        </div>
-        <div class="projects-col">
-            <img src="images/wordcloud_multi_engl.png">
-            <div class="layer">
-                <a href="work_in_progress.html"><h3>WordCloud<br>scraping<br>LDA</h3></a>
+            <div class="projects-col">
+                <img src="images/wordcloud_multi_engl.png" alt="Wordwolke der englischsprachigen Werbeplakate">
+                <div class="layer">
+                    <a href="work_in_progress.html"><h3>WordCloud<br>scraping<br>LDA</h3></a>
+                </div>
             </div>
-        </div>
-        <div class="projects-col">
-            <img src="images/nlp.png">
-            <div class="layer">
-                <a href="work_in_progress.html"><h3>Next level...</h3></a>
+            <div class="projects-col">
+                <img src="images/nlp.png">
+                <div class="layer">
+                    <a href="work_in_progress.html"><h3>Next level...</h3></a>
+                </div>
             </div>
-        </div>
-</section>
+    </section>
 
-<!-- --------VITA--------- -->
-<section id='vita' class="vita">
-    <div class= "vita-row">
-        <div class="vita-col">
-            <img src="images/Bewerbungsfotos/bewerbungsfoto_wiesemann.png" alt="Bewerbungsfoto von Janine Wiesemann" title="Janine Wiesemann"/>
-        </div>
-        <div class="vita-col">       
-            <p>Während meines Studiums an der Universität Potsdam habe ich ein Jahr in Frankreich und ein halbes Jahr in Rumänien studiert.
+    <!-- --------VITA--------- -->
+    <section id='vita' class="vita">
+        <div class= "vita-row">
+            <div class="vita-col">
+                <img src="images/Bewerbungsfotos/bewerbungsfoto_wiesemann.png" alt="Bewerbungsfoto von Janine Wiesemann" title="Janine Wiesemann"/>
+            </div>
+            <div class="vita-col">       
+                <p>Während meines Studiums an der Universität Potsdam habe ich ein Jahr in Frankreich und ein halbes Jahr in Rumänien studiert.
                 Mein Studium finanzierte ich größtenteils als studentische Hilfskraft beim rbb und ZDF. <br>
-                Ich schloss das Lehramt Französisch/Latein (B.Ed. und M.Ed.) und den Masterstudiengang Romanistische Linguistic (M.A.), Master of Arts Romanistische Linguistik
+                Ich schloss das Lehramt Französisch/Latein (B.Ed. und M.Ed.) und den Masterstudiengang Romanistische Linguistic (M.A.)
                 erfolgreich ab. Neben einem Graecum erwarb ich um die klassische Philologie vollständig
                 abschließen zu können das Hebraicum. 
                 Die Faszination für mein Forschungsprojekt erwarb ich bei einer mehrwöchigen Reise in die Republik Moldau.<br>
@@ -96,34 +116,143 @@
                 Führung interessierte Lehrkräfte, Mentoringqualifizierung der Humboldt-Universität zu Berlin und
                 offizielle Facultas-Erweiterung zum Sportlehrer, mehrere Fortbildungen zur Digitalisierung) konnten die Arbeitsbedingungen grundsätzlich nicht ändern, sodass ich mich entschloss weiterzugehen.<br>
                 Mein neuer Weg begann mit dem erfolgreichen Abschluss des Bootcampes bei lewagon.             
-            </p>
+                </p>
+            </div>
+            <div class="vita-col">
+                <svg class= "wordcloud" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 400" preserveAspectRatio="slice">
+                    <rect width="100%" height="100%" style="fill:grey"></rect>
+                    <text class= "word" transform="translate(74,257) rotate(-90)" font-size="59" style="fill:rgb(186, 204, 240)">PHD</text>
+                    <text class= "word" transform="translate(119,336) rotate(-90)" font-size="59" style="fill:rgb(192, 204, 228)">CHISINAU</text>
+                    <text class= "word" transform="translate(5,368)" font-size="21" style="fill:rgb(198, 204, 215)">REPUBLIK MOLDAU</text>
+                    <text class= "word" transform="translate(14,25)" font-size="21" style="fill:rgb(184, 204, 244)">WERBEPLAKATE</text>
+                    <text class= "word" transform="translate(184,141) rotate(-90)" font-size="21" style="fill:rgb(180, 204, 253)">LEWAGON</text>
+                    <text class= "word" transform="translate(82,391)" font-size="21" style="fill:rgb(182, 204, 248)">KARRIERE</text>
+                    <text class= "word" transform="translate(153,348) rotate(-90)" font-size="21" style="fill:rgb(190, 204, 231)">SPRACHBEWUSSTSEIN</text>
+                    <text class= "word" transform="translate(19,289)" font-size="18" style="fill:rgb(195, 204, 221)">B.ED.</text>
+                    <text class= "word" transform="translate(41,51)" font-size="18" style="fill:rgb(201, 204, 209)">FRANZÖSISCH</text>
+                    <text class= "word" transform="translate(183,324) rotate(-90)" font-size="18" style="fill:rgb(200, 204, 211)">LATEIN</text>
+                    <text class= "word" transform="translate(18,349)" font-size="18" style="fill:rgb(181, 204, 250)">RUMÄNISCH</text>
+                    <text class= "word" transform="translate(16,273) rotate(-90)" font-size="18" style="fill:rgb(188, 204, 235)">ENGLISCH</text>
+                    <text class= "word" transform="translate(20,125) rotate(-90)" font-size="18" style="fill:rgb(187, 204, 238)">HEBRAICUM</text>
+                    <text class= "word" transform="translate(4,390)" font-size="18" style="fill:rgb(183, 204, 247)">GRAECUM</text>
+                    <text class= "word" transform="translate(193,250) rotate(-90)" font-size="18" style="fill:rgb(193, 204, 226)">RUSSISCH</text>
+                    <text class= "word" transform="translate(16,312)" font-size="18" style="fill:rgb(197, 204, 218)">M.ED.</text>
+                    <text class= "word" transform="translate(1,141)" font-size="18" style="fill:rgb(188, 204, 235)">M.A.</text>
+                    <text class= "word" transform="translate(8,325)" font-size="18" style="fill:rgb(189, 204, 234)">LEHRER</text>
+                    <text class= "word" transform="translate(108,33)" font-size="10" style="fill:rgb(184, 204, 244)">BERUFSERFAHRUNG</text>
+                    <text class= "word" transform="translate(29,73)" font-size="10" style="fill:rgb(198, 204, 216)">REGENBOGEN</text>
+                    <text class= "word" transform="translate(160,334) rotate(-90)" font-size="10" style="fill:rgb(188, 204, 236)">SARKASTISCH</text>
+                    <text class= "word" transform="translate(133,181) rotate(-90)" font-size="10" style="fill:rgb(199, 204, 214)">SELBSTSTÄNDIG</text>
+                    <text class= "word" transform="translate(131,330) rotate(-90)" font-size="10" style="fill:rgb(194, 204, 224)">FAMILIENPARTEI</text>
+                    <text class= "word" transform="translate(23,32)" font-size="10" style="fill:rgb(179, 204, 253)">SPD-AUSTRITT</text>
+                    <text class= "word" transform="translate(30,123) rotate(-90)" font-size="10" style="fill:rgb(185, 204, 242)">CLUJ</text>
+                    <text class= "word" transform="translate(20,263)" font-size="10" style="fill:rgb(200, 204, 213)">GRENOBLE</text>
+                    <text class= "word" transform="translate(24,95)" font-size="10" style="fill:rgb(180, 204, 251)">FRANKREICH</text>
+                    <text class= "word" transform="translate(167,256) rotate(-90)" font-size="10" style="fill:rgb(185, 204, 241)">RUMÄNIEN</text>
+                    <text class= "word" transform="translate(163,110) rotate(-90)" font-size="10" style="fill:rgb(182, 204, 248)">BALKON</text>
+                    <text class= "word" transform="translate(48,60)" font-size="8" style="fill:rgb(203, 204, 206)">NUMPY</text>
+                    <text class= "word" transform="translate(23,193) rotate(-90)" font-size="8" style="fill:rgb(182, 204, 247)">PANDAS</text>
+                    <text class= "word" transform="translate(169,7)" font-size="8" style="fill:rgb(184, 204, 243)">PYTHON</text>
+                    <text class= "word" transform="translate(160,41)" font-size="8" style="fill:rgb(179, 204, 253)">SKLEARN</text>
+                    <text class= "word" transform="translate(160,191) rotate(-90)" font-size="8" style="fill:rgb(202, 204, 209)">PORTUGIESISCH</text>
+                    <text class= "word" transform="translate(5,147)" font-size="8" style="fill:rgb(187, 204, 239)">EMPATHISCH</text>
+                    <text class= "word" transform="translate(132,61)" font-size="8" style="fill:rgb(194, 204, 224)">GARTEN</text>
+                    <text class= "word" transform="translate(40,82)" font-size="8" style="fill:rgb(186, 204, 240)">MALEN</text>
+                    <text class= "word" transform="translate(37,128)" font-size="8" style="fill:rgb(202, 204, 209)">SPORT</text>
+                    <text class= "word" transform="translate(41,117)" font-size="6" style="fill:rgb(201, 204, 209)">ORGANISIERT</text>
+                    <text class= "word" transform="translate(195,132) rotate(-90)" font-size="6" style="fill:rgb(187, 204, 237)">ENGAGIERT</text>
+                    <text class= "word" transform="translate(166,342) rotate(-90)" font-size="6" style="fill:rgb(202, 204, 208)">VERANTWORTUNGSVOLL</text>
+                    <text class= "word" transform="translate(30,107)" font-size="6" style="fill:rgb(190, 204, 232)">MOTIVIERT</text>
+                    <text class= "word" transform="translate(95,396)" font-size="6" style="fill:rgb(182, 204, 248)">BELASTBAR</text>
+                    <text class= "word" transform="translate(172,254) rotate(-90)" font-size="6" style="fill:rgb(202, 204, 209)">VERANTWORTUNGSBEWUSST</text>
+                    <text class= "word" transform="translate(161,153)" font-size="6" style="fill:rgb(182, 204, 249)">ERFAHREN</text>
+                    <text class= "word" transform="translate(62,231)" font-size="6" style="fill:rgb(190, 204, 232)">SCHNELL</text>
+                    <text class= "word" transform="translate(193,347) rotate(-90)" font-size="6" style="fill:rgb(188, 204, 236)">AUFFASSUNGSGABE</text>
+                    <text class= "word" transform="translate(40,397)" font-size="6" style="fill:rgb(196, 204, 219)">PÜNKTLICH</text>
+                    <text class= "word" transform="translate(33,295)" font-size="6" style="fill:rgb(189, 204, 234)">FLEXIBEL</text>
+                    <text class= "word" transform="translate(38,6)" font-size="6" style="fill:rgb(192, 204, 228)">ZIELSTREBIG</text>
+                    <text class= "word" transform="translate(125,70)" font-size="6" style="fill:rgb(182, 204, 249)">ZUVERLÄSSIG</text>
+                    <text class= "word" transform="translate(24,249) rotate(-90)" font-size="6" style="fill:rgb(193, 204, 226)">KREATIV</text>
+                    <text class= "word" transform="translate(152,124) rotate(-90)" font-size="6" style="fill:rgb(193, 204, 226)">ANPASSUNGFÄHIG</text>
+                    <text class= "word" transform="translate(41,136)" font-size="6" style="fill:rgb(194, 204, 224)">LERNFÄHIG</text>
+                    <text class= "word" transform="translate(141,112) rotate(-90)" font-size="6" style="fill:rgb(184, 204, 243)">FREUNDLICH</text>
+                    <text class= "word" transform="translate(8,332)" font-size="6" style="fill:rgb(196, 204, 219)">EHRGEIZIG</text>
+                    <text class= "word" transform="translate(172,18)" font-size="6" style="fill:rgb(188, 204, 236)">LOYAL</text>
+                    <!-- Linguist, Autodidakt -->
+                </svg>
+                <!-- <script>
+                    const svgContainer = document.querySelector('.svg-container');
+                    const svgTexts = document.querySelectorAll('svg text');
+
+                    svgContainer.addEventListener('mousemove', (event) => {
+                        // calculate mouse position relative to the SVG container
+                        const x = event.clientX - svgContainer.offsetLeft;
+                        const y = event.clientY - svgContainer.offsetTop;
+
+                        // set the transform origin to the center of the SVG container
+                        svgContainer.style.transformOrigin = '50% 50%';
+
+                        svgTexts.forEach((text) => {
+                        const { x: textX, y: textY } = text.getBoundingClientRect();
+
+                        // calculate the distance between the mouse and the text element
+                        const distance = Math.sqrt((textX - x) ** 2 + (textY - y) ** 2);
+
+                        if (distance < 50) {
+                        // add the active class to the selected text element
+                        text.classList.add('active');
+                        } else {
+                        // remove the active class from all other text elements
+                        text.classList.remove('active');
+                        }
+                    });
+                });
+
+                    svgContainer.addEventListener('mouseleave', () => {
+                        // reset the transform origin and scale of the SVG container
+                        svgContainer.style.transformOrigin = 'initial';
+                        svgContainer.style.transform = 'scale(1)';
+  
+                        // remove the active class from all text elements
+                        svgTexts.forEach((text) => {
+                            text.classList.remove('active');
+                        });
+                    });
+                </script> -->
+            </div> 
         </div>
-        <div class="vita-col">
-            <img src="images/Eigenschaften_ich-pastel.png" alt="WordCloud mit Eigenschaften von Janine Wiesemann" title="Was mir wichtig ist..."/>
-        </div> 
-    </div>
-</section>
+    </section>
 
-<!-- mach die WorCloud horizontal wie Foto und benutze blau, grau, weiß Töne -->
-<!-- convert svg into png -->
+<!-- ---------MILESTONES--------- -->
+<!-- Website: 1. HTML, CSS 2.Javascript 3.Kontaktformular-->
+<!-- DataScience: 1. Python -->
+<!-- 2. NLP -->
+<!-- <section id='milestone' class="milestone"> -->
+<!-- Show a DASHBOARD or SOMETHING NEW -> ANY IDEE??? -->
+        <!-- <div class= "milestone-row">
+            <div class="milestone-col">
+                <h1>Inhalt in Kürze</h1>
+            </div>
+        </div>
+</section> -->
 
 
-<!-- -------- Impressum --------  -->
-<section id= "footer" class="footer">
-    <h4>Für mehr Informationen<br>folgen Sie bitte den Links.</h4>
-    <div id="contact" class="icons">
-        <a href="linkedin.com/in/janine-wiesemann-jeannedupre/"><i class="fa fa-linkedin"></i></a>
-        <!-- <a href="https://github.com/JeanneDuPre"><i class="fa fa-github"></i></a>
-        <a href="m_contact.html"><h4>CONTACT ME</h4></a>
-        <a href="doc/lebenslauf_übung.pdf"><h4>Download CV</h4></a> -->
-    </div>
-</section>
-<!-- impressum generator: https://www.impressum-generator.de/impressum-generator/ -->
-<section class="impressum">
-    <div>
-        <a href="impressum.html">Impressum</a>
-    </div>
-</section>
+    <!-- -------- Impressum --------  -->
+    <section id= "footer" class="footer">
+        <h4>Für mehr Informationen<br>folgen Sie bitte den Links.</h4>
+        <div id="contact" class="icons">
+            <a href="www.linkedin.com/in/janine-wiesemann-171285256"><i class="fa fa-linkedin"></i></a>
+            <!-- <a href="https://github.com/JeanneDuPre"><i class="fa fa-github"></i></a>
+            <a href="m_contact.html"><h4>CONTACT ME</h4></a>
+            <a href="doc/lebenslauf_übung.pdf"><h4>Download CV</h4></a> -->
+        </div>
+    </section>
+    <!-- impressum generator: https://www.impressum-generator.de/impressum-generator/ -->
+    <section class="impressum">
+        <div>
+            <a href="impressum.html">Impressum</a>
+        </div>
+    </section>
 
 
 
