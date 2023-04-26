@@ -99,7 +99,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: rgb(132, 5, 41);
+        background: rgb(241, 17, 13);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -164,8 +164,8 @@ nav .fa{
     transition: 0.5s;
 }
 .layer:hover{
-    background: #aa99ae;
-    opacity: 0.8;
+    background: rgb(241, 17, 13);
+    opacity: 0.7;
 }
 .layer h3{
     width: 100%;
