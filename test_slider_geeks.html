@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Projekt Promotion</title>
+    <link rel="stylesheet" href="test_slider_geeks.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport"content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  
+<body>   
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class= "fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html #projects">PROJEKTE</a></li>
+                    <li><a href="index.html #vita">VITA</a></li>
+                    <!-- mit neuen Projekten bitte ändern -->
+                    <!-- <li><a href="#projects">ZUKUNFT</a></li> -->
+                    <!-- <li><a href="#milestone">MILESTONES</a></li> -->
+                    <li><a href="work_in_progress.html">BLOG</a></li>
+                    <li><a href="index.html #footer">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+    <!-- Image container of the image slider -->
+        <div class="image-container">
+            <div class="slide">
+                <div class="slideNumber">Wordcloud aller multilingualer Werbeplakate (Wortfrequenz)</div>
+                <a href="#wordcloud"><img src= "images/projects_promotion/moldova_wordcloud_multi.png" alt="Wortcloud aller mehrsprachigen Werbeplakate"></a>
+            </div>
+            <div class="slide">
+                <div class="slideNumber">Wordcloud im Vergleich der rumänischen und englischen Werbeplakate (Wortfrequenz; blau: ru, rot: engl., grün: bei beiden vorkommend)</div>
+                <img src="images/projects_promotion/moldova_wordcloud_engl_ru.png" alt="Wordcloud aller englisch und russischer Werbeplakate und ihre Wortgemeinsamkeiten">
+            </div>
+            <div class="slide">
+                <div class="slideNumber">Graphics</div>
+                <img src= "images/projects_promotion/moldova_wordcloud_engl.png">
+                <!-- in schwarz weiß einfärben DANKE! -->
+            </div>
+            <!-- <div class="slide">
+                <div class="slideNUmber">Text</div>
+                <img src="" alt="">
+            </div> -->
+  
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides(-1)">
+                <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides(1)">
+                <i class="fa fa-chevron-circle-right"></i>
+            </a>
+        </div>
+        <br>
+  
+        <div style="text-align:center">
+            <span class="footerdot"
+                onclick="activeSlide(1)">
+            </span>
+            <span class="footerdot"
+                onclick="activeSlide(2)">
+            </span>
+            <span class="footerdot"
+                onclick="activeSlide(3)">
+            </span>
+        </div>
+     
+        <script>
+            var slideIndex = 1;
+            displaySlide(slideIndex);
+  
+            function moveSlides(n) {
+                displaySlide(slideIndex += n);
+            }
+  
+            function activeSlide(n) {
+                displaySlide(slideIndex = n);
+            }
+  
+            /* Main function */
+            function displaySlide(n) {
+                var i;
+                var totalslides =
+                    document.getElementsByClassName("slide");
+             
+                var totaldots =
+                    document.getElementsByClassName("footerdot");
+             
+                if (n > totalslides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = totalslides.length;
+                }
+                for (i = 0; i < totalslides.length; i++) {
+                    totalslides[i].style.display = "none";
+                }
+                for (i = 0; i < totaldots.length; i++) {
+                    totaldots[i].className =
+                    totaldots[i].className.replace(" active", "");
+                }
+                totalslides[slideIndex - 1].style.display = "block";
+                totaldots[slideIndex - 1].className += " active";
+            }
+        </script>
+    </section>
+    <section id= "description" class="description">
+        <h1>Sprachbewusstsein in der Republik Moldau...?</h1>
+        <h2>WordCloud python and js / Clustering/ advertising</h2>
+        <p>Ein Teil der Untersuchungen wurden von der Teilnahme am Bootcamp lewagon inspiriert.<br>
+            Es handelt sich um die Auswertung eines 5981 Werbeplakate umfassendes multilinguales Korpus.<br>
+            - TABELLE MIT MUTH aufschreiben</p>
+        <h4>Probleme, die ich dabei antraf: ....</h4>
+        <h5>stopwords</h5>
+        <h5>Lemmatisierung des Rumänischen, Russischen und Englischen</h5>
+        <h5>WordCloud erstellen</h5>
+    </section>
+    <section id= "projects" class="projects">
+    <!-- MA Rumänisch und Russisch-> hochladen DANKE! -->
+    <div class="projects-row">
+        <div class="projects-col">
+            <img src="images/litfasssäule_chisinau-smaller.png" alt="Litfasssäule in Chisinau, Hauptstadt der Republik Moldau"/>
+            <!-- change the images to images with copyright -->
+            <!-- MA I Rumänisch darstellen DANKE! -->
+            <!-- MA II RUmänisch darstellen DANKE! -->
+            <div class="layer">
+                <a href="work_in_progress.html"><h3>PhD in images...<br>Vom Sprachbewusstsein in der Republik Moldau</h3></a>
+                <!-- DASHBOARD WITH THE MOST IMPORTANT GRAPHS -->
+                <!-- TEXT stopwords in romanian and a problem of .... -->
+                <!-- Linguistic Landscape in Chisinau -->
+            </div>
+        </div>
+        <div class="projects-col">
+            <img src="images/wordcloud_multi_engl.png" alt="Wordwolke der englischsprachigen Werbeplakate">
+            <div class="layer">
+                <a href="work_in_progress.html"><h3>WordCloud<br>scraping<br>LDA</h3></a>
+            </div>
+        </div>
+        <div class="projects-col">
+            <img src="images/nlp.png">
+            <div class="layer">
+                <a href="work_in_progress.html"><h3>Next level...</h3></a>
+            </div>
+        </div>
+    </section>
+<section>
+    <div>
+        <h1>Agathe Bauer und warum wir alle so schlecht hören...</h1>
+        <p></p>
+    </div>
+    <div>
+        <h1>Übersetzungen und ihre Analyse TFI-> gleiche Topics???</h1>
+        <p></p>
+    </div>
+</section>
+</body>
+  
+</html>
