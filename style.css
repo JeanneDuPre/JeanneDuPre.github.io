@@ -209,7 +209,7 @@ nav .fa{
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 33%;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 20px;
     position: relative;
     overflow: hidden;  
