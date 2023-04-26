@@ -3,14 +3,10 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/background_berlin.png);
-    /* linear-gradient(top,rgba(105,210,190,1.0), url(images/background_berlin.png)); */
-    /* rgba(4,9,30,0.7)) */
+    background-image: url(images/background/background_berlin_copyright.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -68,7 +64,7 @@ nav{
 }
 .text-box h1{
     font-size: 70px;
-    text-shadow: 2px 2px rgb(112, 112, 110);
+    text-shadow: 2px 2px  rgb(96, 18, 88);
 }
 .text-box p{
     margin-top: 5px;
@@ -76,8 +72,10 @@ nav{
     text-indent: 50px;
     font-size: 35px;
     color: #fff;
-    text-shadow: 2px 2px rgb(112, 112, 110);
+    text-shadow: 2px 2px rgb(96, 18, 88);
 }
+
+/* Flaggen funktionieren noch nicht oben links */
 .icons .fib {
     text-align: left;
     background-size: contain;
@@ -87,23 +85,6 @@ nav{
     cursor: pointer;
     padding: 18px;
 }
-/* .hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #060101;
-    border: 1px solid #060101;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-.hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 1s;
-} */
-
 nav .fa{
     display:none;
 }
@@ -119,7 +100,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: #e63905;
+        background:#aa99ae;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -140,81 +121,36 @@ nav .fa{
 
     }
 }
-/* ----- course ---- */
-/* .course{
+/* ------- projects -------  */
+.projects{
     width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px; 
-}
-h1{
-    font-size: 36px;
-    font-weight: 600;
-}
-p{
-    color: #060101;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-.row{
-    margin-top:5%;
-    display: flex;
-    justify-content: space-between;
-}
-.course-col{
-    flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-.course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
-} */
-
-/* ------- campus -------  */
-.campus{
-    width: 80%;
+    min-height: 100vh;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 
 }
-.row{
+.projects-row{
     margin-top:5%;
     display: flex;
     justify-content: space-between;
 }
 
-.campus-col{
+.projects-col{
     flex-basis: 32%;
+    flex-direction: column;
     border-radius: 10px;
     margin-bottom: 50px;
     position: relative;
     overflow: hidden; 
 }
-.campus-col img{
+.projects-col img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-.campus-col p{
+.projects-col p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -228,7 +164,8 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(191, 12, 12, 0.64);
+    background: #aa99ae;
+    opacity: 0.8;
 }
 .layer h3{
     width: 100%;
@@ -248,165 +185,317 @@ h3{
     opacity: 1;
 }
 @media(max-width: 700px){
-    .row{
+    .projects-row{
         flex-direction: column;
     }
-} */
+}
 
 /* ----------VITA--------- */
 .vita{
     width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 30px;
-}
-.vita-row{
-    margin-top:5%;
-    display: flex;
-    justify-content: space-between;
+    min-height: 100vh;
+    background-position: center;
     background-color: grey;
+    background-size: cover;
+    position: relative;
+}
+.vita-row {
+    /* margin-top:5%; */
+    display: flex;
 }
 .vita-col{
-    flex-basis:32%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    /* space-between */
+    justify-content: center; 
+    text-align: center; 
+    flex-basis: 32%;
+    align-self:center;
+    padding: 1%;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;  
+    border-radius: 10px;
 }
-
-/* .flex_container {
-    display:flex;
-    background-color: grey;
-} */
 .vita-col img{
     width:100%;
-    display:block;
-    border-radius: 5px;
+    height: auto;
+    /* flex-grow:1; */
+    /* flex-shrink: 1; */
+    border-radius: 20px;
     object-fit: cover;
+    display: center;
+    /* text-align: center; OBEN UND UNTEN AUCH NOCH MITTE */
+}
+.vita-col svg{
+    width: 70%;
+    height: auto;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* width: 200px;
+    height:400px; */
+    object-fit: cover;
+    display: center;
+    /* text-align: center; */
+}
+/* .vita-col svg text{
+    font-family: 'Poppins', sans-serif;
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.5s ease-out;
+}
+.vita-col svg text:hover, .vita-col svg text:focus {
+    background-color: #fff;
+    color: #333;
+} */
+.vita-col svg text {
+    font-family: 'Poppins', sans-serif;
 }
     
-.vita h1{
-    color: #fff;
-}
 .vita-col p{
     text-align:center;
-    text-justify: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 1vw;
+    /* flex-grow: 2; */
     text-shadow: 1px 1px rgb(84, 83, 83);
 }
+
+/* Wordcloud noch einzelne Wörter herausstellen DANKE! */
+/* .wordcloud .word{
+    transition: all 2s ease;
+}
+.word:hover{
+    font-size: 50px;
+    transform: translateZ(100px);
+    animation: fly 0.7s forwards;
+}
+@keyframes fly {
+    from {
+        transform: translateZ(0);
+    }
+    to {
+        transform: translateZ(100px);
+    }
+} */
+/* WITH javascript in the html */
+/* svg text {
+    transition: transform 0.7s;
+    /* color: darkblue; */
+/* }
+  svg text.active {
+    transform: scale(1.5);
+
+    color: darkblue;
+    text-align: center;
+  } */ */
+/* .wordcloud {
+    position: relative;
+  } */
+  
+/* .word {
+    /* display: inline-block; */
+    /* padding: 8px;
+    margin: 8px; */
+    /* transition: all 1.7s ease;
+    transition-property: transform, color; */
+  /* } */
+  
+/* .word:hover {
+    background: black;
+    color: white; */
+    /* transform: translate(50%, 50%); */
+    /* text-shadow: 0 -1.5em 0 rgba(255, 255, 255, 0.15); */
+    /* color: rgb(3, 3, 59); */
+    /* position: absolute;
+    left: 50%;
+    top: 50%; */
+  /* } */
+.word {
+    font-size: 32px;
+    color:grey;
+}
+  
+.word:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    color: white;
+}
+
 @media(max-width: 700px){
-    .row{
+    .vita-row {
         flex-direction: column;
     }
+}
 
-} */
-/* -------- FUTURE ------  */
-/* delete facilities DANKE */
-/* .facilities{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.facilities-col{
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-.facilities-col img{
+/* -----milestone-------- */
+/* .milestone{
     width: 100%;
-    border-radius: 10px;
-}
-.facilities-col p{
-    padding: 0;
-}
-.facilities-col h3{
-    margin-top:16px;
-    margin-bottom: 15px;
-    text-align: left;
-} */
-/* ------- testimonials ----  */
-/* delete testimonials DANKE */
-/* .testimonials{
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
-}
-.testimonials-col{
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #fff3f3;
-    padding: 25px;
-    cursor: pointer;
-    display:flex;
-}
-.testimonial-col img{
-    height: 40px;
-    margin-left: 5px;
-    margin-right: 30px;
-    border-radius: 50%;
-}
-.testimonial-col p{
-    padding:0;
-}
-.testimonial-col h3{
-    margin-top: 15px;
-    text-align: left;
-}
-.testimonial-col .fa{
-    color: #f44336
-}
-@media(max-width: 700px){
-    .testimonial-col img{
-        margin-left: 0px;
-        margin-right: 15px;
-    }
-} */
-/* ------ call to action ------  */
-.cta{
-    margin: 100px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7)), url(images/background-berlin.png);
+    min-height: 100vh;
     background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-}
-.cta h1{
-    color: #fff;
-    margin-bottom: 40px;
-    padding: 0;
-}
-@media(max-width: 700px){
-    .cta h1{
-        font-size: 24px;
-    }
-}
+    /* background-color: grey; */
+    /* background-size: cover;
+    position: relative;
+} */
+.milestone h1{
+    color: black;
+    font-size: 24px;
+} */
 /* -------- footer ----  */
 .footer{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     text-align: center;
-    padding: 30px 0;
+    padding-top: 50px;
 }
 .footer h4{
-    margin-bottom: 26px;
-    margin-top: 20px;
+    text-align: center;
+    /* margin-bottom: 26px;
+    margin-top: 20px; */
     font-weight: 600;
+    color: rgb(117, 116, 116);
+}
+.icons i{
+    text-align: center;
 }
 .icons .fa{
-    color: white;
+    color: rgb(168, 166, 166);
     margin: 0 13px;
+    text-align: center;
     cursor: pointer;
     padding: 18px 0;
 }
-.fa-heart-o{
-    color: white;
+/* -----impressum---- */
+.impressum {
+    text-align: center;
+    color: grey;
+}
+
+/* ----- slider----- */
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+.slider input[type=radio] {
+    display: none;
+}
+.slider label {
+    cursor: pointer;
+    text-decoration: none;
+}
+.slides {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+.overflow {
+    width: 100%;
+    overflow: hidden;
+}
+.slide1:checked ~ .slides .inner {
+    margin-left: 0;
+}
+.slide2:checked ~ .slides .inner {
+    margin-left: -100%;
+}
+.slide3:checked ~ .slides .inner {
+    margin-left: -200%;
+}
+.slide4:checked ~ .slides .inner {
+    margin-left: -300%;
+}
+.slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+.slides .slide {
+    width: 25%;
+    float: left;
+    display: block;
+    height: 100%;
+    color: #fff;
+}
+.slides .slide_1 {
+    background: #00171F;
+}
+.slides .slide_2 {
+    background: #003459;
+}
+.slides .slide_3 {
+    background: #007EA7;
+}
+.slides .slide_4 {
+    background: #00A8E8;
+}
+.slide-content {
+    padding: 10px;
+}
+.controls {
+    margin: -130px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+.controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+.controls label:hover {
+    opacity: 1;
+}
+.slide1:checked ~ .controls label:nth-child(2),
+.slide2:checked ~ .controls label:nth-child(3),
+.slide3:checked ~ .controls label:nth-child(4),
+.slide4:checked ~ .controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+.slide1:checked ~ .controls label:nth-child(2),
+.slide2:checked ~ .controls label:nth-child(3),
+.slide3:checked ~ .controls label:nth-child(4),
+.slide4:checked ~ .controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+.bullets {
+    margin: 100px 0 0;
+    text-align: center;
+}
+.bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+.slide1:checked ~ .bullets label:nth-child(1),
+.slide2:checked ~ .bullets label:nth-child(2),
+.slide3:checked ~ .bullets label:nth-child(3),
+.slide4:checked ~ .bullets label:nth-child(4) {
+    background: #444;
+}
+@media screen and (max-width: 900px) {
+    .slide1:checked ~ .controls label:nth-child(2),
+    .slide2:checked ~ .controls label:nth-child(3),
+    .slide3:checked ~ .controls label:nth-child(4),
+    .slide4:checked ~ .controls label:nth-child(1) {
+        background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+        float: right;
+        margin: 0 -50px 0 0;
+        display: block;
+    }
 }

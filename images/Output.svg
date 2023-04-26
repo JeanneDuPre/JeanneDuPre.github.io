@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="400">
+<style>text{font-family:'sans-serif';font-weight:normal;font-style:normal;}</style>
+<rect width="100%" height="100%" style="fill:grey"></rect>
+<text transform="translate(74,257) rotate(-90)" font-size="59" style="fill:rgb(186, 204, 240)">PHD</text>
+<text transform="translate(119,336) rotate(-90)" font-size="59" style="fill:rgb(192, 204, 228)">CHISINAU</text>
+<text transform="translate(5,368)" font-size="21" style="fill:rgb(198, 204, 215)">REPUBLIK MOLDAU</text>
+<text transform="translate(14,25)" font-size="21" style="fill:rgb(184, 204, 244)">WERBEPLAKATE</text>
+<text transform="translate(184,141) rotate(-90)" font-size="21" style="fill:rgb(180, 204, 253)">LEWAGON</text>
+<text transform="translate(82,391)" font-size="21" style="fill:rgb(182, 204, 248)">KARRIERE</text>
+<text transform="translate(153,348) rotate(-90)" font-size="21" style="fill:rgb(190, 204, 231)">SPRACHBEWUSSTSEIN</text>
+<text transform="translate(19,289)" font-size="18" style="fill:rgb(195, 204, 221)">B.ED.</text>
+<text transform="translate(41,51)" font-size="18" style="fill:rgb(201, 204, 209)">FRANZÖSISCH</text>
+<text transform="translate(183,324) rotate(-90)" font-size="18" style="fill:rgb(200, 204, 211)">LATEIN</text>
+<text transform="translate(18,349)" font-size="18" style="fill:rgb(181, 204, 250)">RUMÄNISCH</text>
+<text transform="translate(16,273) rotate(-90)" font-size="18" style="fill:rgb(188, 204, 235)">ENGLISCH</text>
+<text transform="translate(20,125) rotate(-90)" font-size="18" style="fill:rgb(187, 204, 238)">HEBRAICUM</text>
+<text transform="translate(4,390)" font-size="18" style="fill:rgb(183, 204, 247)">GRAECUM</text>
+<text transform="translate(193,250) rotate(-90)" font-size="18" style="fill:rgb(193, 204, 226)">RUSSISCH</text>
+<text transform="translate(16,312)" font-size="18" style="fill:rgb(197, 204, 218)">M.ED.</text>
+<text transform="translate(1,141)" font-size="18" style="fill:rgb(188, 204, 235)">M.A.</text>
+<text transform="translate(8,325)" font-size="18" style="fill:rgb(189, 204, 234)">LEHRER</text>
+<text transform="translate(108,33)" font-size="10" style="fill:rgb(184, 204, 244)">BERUFSERFAHRUNG</text>
+<text transform="translate(29,73)" font-size="10" style="fill:rgb(198, 204, 216)">REGENBOGEN</text>
+<text transform="translate(160,334) rotate(-90)" font-size="10" style="fill:rgb(188, 204, 236)">SARKASTISCH</text>
+<text transform="translate(133,181) rotate(-90)" font-size="10" style="fill:rgb(199, 204, 214)">SELBSTSTÄNDIG</text>
+<text transform="translate(131,330) rotate(-90)" font-size="10" style="fill:rgb(194, 204, 224)">FAMILIENPARTEI</text>
+<text transform="translate(23,32)" font-size="10" style="fill:rgb(179, 204, 253)">SPD-AUSTRITT</text>
+<text transform="translate(30,123) rotate(-90)" font-size="10" style="fill:rgb(185, 204, 242)">CLUJ</text>
+<text transform="translate(20,263)" font-size="10" style="fill:rgb(200, 204, 213)">GRENOBLE</text>
+<text transform="translate(24,95)" font-size="10" style="fill:rgb(180, 204, 251)">FRANKREICH</text>
+<text transform="translate(167,256) rotate(-90)" font-size="10" style="fill:rgb(185, 204, 241)">RUMÄNIEN</text>
+<text transform="translate(163,110) rotate(-90)" font-size="10" style="fill:rgb(182, 204, 248)">BALKON</text>
+<text transform="translate(48,60)" font-size="8" style="fill:rgb(203, 204, 206)">NUMPY</text>
+<text transform="translate(23,193) rotate(-90)" font-size="8" style="fill:rgb(182, 204, 247)">PANDAS</text>
+<text transform="translate(169,7)" font-size="8" style="fill:rgb(184, 204, 243)">PYTHON</text>
+<text transform="translate(160,41)" font-size="8" style="fill:rgb(179, 204, 253)">SKLEARN</text>
+<text transform="translate(160,191) rotate(-90)" font-size="8" style="fill:rgb(202, 204, 209)">PORTUGIESISCH</text>
+<text transform="translate(5,147)" font-size="8" style="fill:rgb(187, 204, 239)">EMPATHISCH</text>
+<text transform="translate(132,61)" font-size="8" style="fill:rgb(194, 204, 224)">GARTEN</text>
+<text transform="translate(40,82)" font-size="8" style="fill:rgb(186, 204, 240)">MALEN</text>
+<text transform="translate(37,128)" font-size="8" style="fill:rgb(202, 204, 209)">SPORT</text>
+<text transform="translate(41,117)" font-size="6" style="fill:rgb(201, 204, 209)">ORGANISIERT</text>
+<text transform="translate(195,132) rotate(-90)" font-size="6" style="fill:rgb(187, 204, 237)">ENGAGIERT</text>
+<text transform="translate(166,342) rotate(-90)" font-size="6" style="fill:rgb(202, 204, 208)">VERANTWORTUNGSVOLL</text>
+<text transform="translate(30,107)" font-size="6" style="fill:rgb(190, 204, 232)">MOTIVIERT</text>
+<text transform="translate(95,396)" font-size="6" style="fill:rgb(182, 204, 248)">BELASTBAR</text>
+<text transform="translate(172,254) rotate(-90)" font-size="6" style="fill:rgb(202, 204, 209)">VERANTWORTUNGSBEWUSST</text>
+<text transform="translate(161,153)" font-size="6" style="fill:rgb(182, 204, 249)">ERFAHREN</text>
+<text transform="translate(62,231)" font-size="6" style="fill:rgb(190, 204, 232)">SCHNELL</text>
+<text transform="translate(193,347) rotate(-90)" font-size="6" style="fill:rgb(188, 204, 236)">AUFFASSUNGSGABE</text>
+<text transform="translate(40,397)" font-size="6" style="fill:rgb(196, 204, 219)">PÜNKTLICH</text>
+<text transform="translate(33,295)" font-size="6" style="fill:rgb(189, 204, 234)">FLEXIBEL</text>
+<text transform="translate(38,6)" font-size="6" style="fill:rgb(192, 204, 228)">ZIELSTREBIG</text>
+<text transform="translate(125,70)" font-size="6" style="fill:rgb(182, 204, 249)">ZUVERLÄSSIG</text>
+<text transform="translate(24,249) rotate(-90)" font-size="6" style="fill:rgb(193, 204, 226)">KREATIV</text>
+<text transform="translate(152,124) rotate(-90)" font-size="6" style="fill:rgb(193, 204, 226)">ANPASSUNGFÄHIG</text>
+<text transform="translate(41,136)" font-size="6" style="fill:rgb(194, 204, 224)">LERNFÄHIG</text>
+<text transform="translate(141,112) rotate(-90)" font-size="6" style="fill:rgb(184, 204, 243)">FREUNDLICH</text>
+<text transform="translate(8,332)" font-size="6" style="fill:rgb(196, 204, 219)">EHRGEIZIG</text>
+<text transform="translate(172,18)" font-size="6" style="fill:rgb(188, 204, 236)">LOYAL</text>
+</svg>

@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <title>Data Science Wiesemann</title>
-    <link rel="stylesheet" href="style_progress.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -12,8 +12,33 @@
 
 <body>
     <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class= "fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html#projects">PROJEKTE</a></li>
+                    <li><a href="index.html#vita">VITA</a></li>
+                    <!-- mit neuen Projekten bitte ändern -->
+                    <!-- <li><a href="#projects">ZUKUNFT</a></li> -->
+                    <li><a href="work_in_progress.html">BLOG</a></li>
+                    <li><a href="index.html#footer">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
         <div class="text-box">
-            <h1>Wir arbeiten daran, dass hier bald für Sie Inhalt bereitsteht.</h1>
+            <h1>Wir arbeiten daran, dass hier bald Inhalt bereitsteht.</h1>
         </div>
     </section>
+
+    <!-- -------JavaScript for Toggle Menu-------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
