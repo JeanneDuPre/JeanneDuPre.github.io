@@ -8,6 +8,7 @@ reached milestones:
   - CSS (April 2023)
  
 future milestones:
+  - link CV
   - jquery (header | footer)
   - bootstrap
   - js (interactive wordcloud)
