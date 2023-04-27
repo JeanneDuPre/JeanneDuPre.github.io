@@ -68,7 +68,7 @@ nav{
     color: #fff;
 }
 /* Flaggen funktionieren noch nicht oben links */
-.icons .fib {
+/* .icons .fib {
     text-align: left;
     background-size: contain;
     background-position: 50%;
@@ -76,7 +76,7 @@ nav{
     margin: 13px;
     cursor: pointer;
     padding: 18px;
-}
+} */
 nav .fa{
     display:none;
 }

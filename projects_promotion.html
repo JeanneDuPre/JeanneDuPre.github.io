@@ -18,12 +18,12 @@
             <div class="nav-links" id="navLinks">
                 <i class= "fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html #projects">PROJEKTE</a></li>
-                    <li><a href="index.html #vita">VITA</a></li>
+                    <li><a href="index.html#projects">PROJEKTE</a></li>
+                    <li><a href="index.html#vita">VITA</a></li>
                     <!-- <li><a href="#projects">ZUKUNFT</a></li> -->
                     <!-- <li><a href="#milestone">MILESTONES</a></li> -->
                     <li><a href="work_in_progress.html">BLOG</a></li>
-                    <li><a href="index.html #footer">KONTAKT</a></li>
+                    <li><a href="index.html#footer">KONTAKT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -55,7 +55,7 @@
          <!-- Image container of the image slider -->
          <div class="image-container">
             <div class="slide">
-                <a href="#wordcloud"><img src= "images/projects_promotion/moldova_wordcloud_multi.png" title= "Wordcloud aller multilingualer Werbeplakate (Wortfrequenz)" alt="Wortcloud aller mehrsprachigen Werbeplakate"></a>
+                <img src= "images/projects_promotion/moldova_wordcloud_multi.png" title= "Wordcloud aller multilingualer Werbeplakate (Wortfrequenz)" alt="Wortcloud aller mehrsprachigen Werbeplakate">
             </div>
             <div class="slide">
                 <img src="images/projects_promotion/moldova_wordcloud_engl_ru.png" title="Wordcloud im Vergleich der rumänischen und englischen Werbeplakate (Wortfrequenz; blau: ru, rot: engl., grün: bei beiden vorkommend)" alt="Wordcloud aller englisch und russischer Werbeplakate und ihre Wortgemeinsamkeiten">
@@ -129,7 +129,8 @@
             }
         </script>
     </section>
-    <section id= "projects" class="projects">
+<!-- rename the projects class -->
+    <section class="projects">
     <!-- MA Rumänisch und Russisch-> hochladen DANKE! -->
         <h1>Weitere Arbeiten zum Thema...</h1>
         <p><a href="work_in_progress.html">MA I Rumänisch</a></p>
@@ -152,7 +153,19 @@
             <a href="impressum.html">Impressum</a>
         </div>
     </section>
-</section>
+
+    
+    <!-- -------JavaScript for Toggle Menu-------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
 </body>
   
 </html>
