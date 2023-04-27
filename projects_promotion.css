@@ -7,9 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    /* background-image: url(images/background/background_berlin_copyright_grey.png); */
-    background-image: url(images/background/background_berlin_morgens.png);
-    filter: grayscale(60%);
+    background-image: url(images/background/background_berlin_copyright_grey.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -56,7 +54,6 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: right;
-    text-shadow: 2px 2px black;
     padding-top: 90px;
 }
 .text-box h1{
@@ -71,7 +68,7 @@ nav{
     color: #fff;
 }
 /* Flaggen funktionieren noch nicht oben links */
-.icons .fib {
+/* .icons .fib {
     text-align: left;
     background-size: contain;
     background-position: 50%;
@@ -79,7 +76,7 @@ nav{
     margin: 13px;
     cursor: pointer;
     padding: 18px;
-}
+} */
 nav .fa{
     display:none;
 }
