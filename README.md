@@ -6,9 +6,11 @@ I started creating a portfolio website a month ago (March 2023).
 reached milestones:
   - HTML (April 2023)
   - CSS (April 2023)
+  - content: 
+    - CV (April 2023)
+    - blog 1 (April 2023)
  
 future milestones:
-  - link CV
   - jquery (header | footer)
   - bootstrap
   - js (interactive wordcloud)
