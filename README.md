@@ -16,7 +16,9 @@ future milestones:
   - bootstrap
   - js (interactive wordcloud)
   - projects -> dashboard promotion
-  - contact form (connect to email failled)
+  - contact form (connect to email failed)
+  - blog layout
+  - projects layout
   - content:
       article 2/ blog -> adoption 
       projects 1 -> dashboard promotion (dash | plotly | matplotx)
