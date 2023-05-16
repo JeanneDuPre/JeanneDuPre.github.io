@@ -9,17 +9,17 @@ reached milestones:
   - content: 
     - CV (April 2023)
     - blog 1 (April 2023)
+    - blog 2 (Mai 2023)
    - contact form html/css (Mai 2023)
  
 future milestones:
   - jquery (header | footer)
   - bootstrap
   - js (interactive wordcloud)
-  - projects -> dashboard promotion
+  - projects -> 1. dashboard promotion (dash | plotly | streamlit | matplotx) (Mai 2023)
+             -> 2. dashboard Whatsapp chat (emoji) (Mai 2023)
+             -> 3. dashboard Klima-Kleber (map)
   - contact form (connect to email failed)
   - blog layout
   - projects layout
-  - content:
-      article 2/ blog -> adoption 
-      projects 1 -> dashboard promotion (dash | plotly | matplotx)
-      projects 2 -> scraping 
+  - scraping and model
