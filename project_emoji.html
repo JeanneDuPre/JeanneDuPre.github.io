@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Data Science Wiesemann</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class= "fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html#projects">PROJEKTE</a></li>
+                    <li><a href="index.html#vita">VITA</a></li>
+                    <li><a href="work_in_progress.html">MILESTONES</a></li>
+                    <li><a href="work_in_progress.html">BLOG</a></li>
+                    <li><a href="index.html#footer">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box_project">
+            <h1>Wie verändert sich das Kommunikationsverhalten in den Phasen einer Beziehung?</h1>
+            <br>
+            <br>
+            <h3>Whatsapp Chat und Emojis</h3>
+            <h3>- eine explorative Untersuchung -</h2>
+            <h3>Data Analyst | Data Science</h2>
+            <h3>Datenaufbereitung | Diagramme | NLP</h2>
+        </div>
+    </section>
+    <section class="project">
+        <div>
+            <div class="projects-row">
+                <div class="projects-col">
+                    <img src="images/projects_emoji/pie_chart_emoji.png" alt="Alle Emojis, die mehr als 3 % in den Nachrichten verwandt werden"/>
+                </div>
+                <!-- <div class="projects-col">
+                    <img src="images/projects_emoji/whatsapp_wandel_lebensereignisse.png" alt="Wie sich Whatsapp Kommunikation verändern kann...">
+                </div> -->
+                <div class="projects-col">
+                    <img src="images/projects_emoji/word_cloud_last_100_less_frequent_words.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="projects-row">
+                <div class="projects-col">
+                    <img src="images/projects_emoji/whatsapp_wandel_lebensereignisse.png" alt="" />
+                </div>
+                <div class="projects-col">
+                    <img src="images/projects_emoji/whatsapp_emoji_versus_wörter_partner1_partner2.png" alt="Wie sich Whatsapp Kommunikation verändern kann...">
+                </div>
+                <div class="projects-col">
+                    <img src="images/projects_emoji/whatsapp_emoji_unique_median_mean.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- -------JavaScript for Toggle Menu-------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
