@@ -127,7 +127,7 @@ nav .fa{
     padding-top: 50px;
 }
 .projects h1, p {
-    color: grey;
+    color: #a3a3a3;
 }
 .projects-row{
     margin-top:5%;
@@ -201,7 +201,7 @@ nav .fa{
 .vita-row {
     margin-top:5%;
     display: flex;
-    background-color: grey;
+    background-color: #a3a3a3;
 }
 .vita-col{
     display: flex;
@@ -248,24 +248,24 @@ nav .fa{
     /* margin-bottom: 26px;
     margin-top: 20px; */
     font-weight: 600;
-    color: rgb(117, 116, 116);
+    color: #a3a3a3;
 }
 .icons i{
     text-align: center;
 }
 .icons .fa{
-    color: rgb(168, 166, 166);
+    color: #a3a3a3;
     margin: 0 13px;
     text-align: center;
     cursor: pointer;
     padding: 18px 0;
 }
 .fa-heart-o{
-    color: rgb(117, 116, 116);
+    color: #a3a3a3;
 }
 /* -----impressum---- */
 .impressum {
     text-align: center;
-    color: grey;
+    color: #a3a3a3;
     padding: 50px;
 }
