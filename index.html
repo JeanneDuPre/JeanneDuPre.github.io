@@ -11,6 +11,12 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <style>
+        .highlight {
+            color: blue;
+            font-size: larger;
+        }
+    </style> -->
     <!-- <script>
         $(document).ready(function(){
             $(#header).load('header.html');
@@ -137,51 +143,47 @@
             </div>
             <div class="vita-col">
                 <img src="images/bewerbung/wordwolke_bewerbung.png" alt="" title="Fähigkeiten und Fertigkeiten">
-
-                <!-- <script>
-                    const svgContainer = document.querySelector('.svg-container');
-                    const svgTexts = document.querySelectorAll('svg text');
-
-                    svgContainer.addEventListener('mousemove', (event) => {
-                        // calculate mouse position relative to the SVG container
-                        const x = event.clientX - svgContainer.offsetLeft;
-                        const y = event.clientY - svgContainer.offsetTop;
-
-                        // set the transform origin to the center of the SVG container
-                        svgContainer.style.transformOrigin = '50% 50%';
-
-                        svgTexts.forEach((text) => {
-                        const { x: textX, y: textY } = text.getBoundingClientRect();
-
-                        // calculate the distance between the mouse and the text element
-                        const distance = Math.sqrt((textX - x) ** 2 + (textY - y) ** 2);
-
-                        if (distance < 50) {
-                        // add the active class to the selected text element
-                        text.classList.add('active');
-                        } else {
-                        // remove the active class from all other text elements
-                        text.classList.remove('active');
-                        }
-                    });
-                });
-
-                    svgContainer.addEventListener('mouseleave', () => {
-                        // reset the transform origin and scale of the SVG container
-                        svgContainer.style.transformOrigin = 'initial';
-                        svgContainer.style.transform = 'scale(1)';
-  
-                        // remove the active class from all text elements
-                        svgTexts.forEach((text) => {
-                            text.classList.remove('active');
-                        });
-                    });
-                </script> -->
             </div>
         </div>
     </section>
 
     <!-- -------------BLOG---------- -->
+    <!-- <section>
+        <svg id="wordCloud" width="800" height="600"></svg>
+
+        <script>
+            const words = [
+                "organisiert", 'engagiert', 'verantwortungsvoll', 'motiviert', 'belastbar', 'verantwortungsbewusst', 'erfahren',
+                'Auffassungsgabe', 'flexibel', 'zielstrebig', 'zuverlässig', 'kreativ',
+                'anpassungfähig', 'lernfähig', 'freundlich', 'ehrgeizig', 'loyal', 'numpy', 'pandas', 'python', 'sklearn', 'NLP', 'ML',
+                'PhD', 'B.Ed.', 'Französisch', 'Latein', 'Rumänisch', 'Englisch', 'Hebraicum', 'Portugiesisch', 'Graecum', 'Russisch', 'Chisinau', 'Republik Moldau', 'Werbeplakate', \
+                'M.Ed.', 'M.A.', 'lewagon', 'Lehrer', 'Berufserfahrung', 'empathisch', 'Regenbogen', 'Garten', 'malen',
+                'sarkastisch', 'selbstständig', 'Karriere', 'Familienpartei', 'SPD-Austritt', 'Cluj', 'Grenoble', 'Frankreich',
+                'Sprachbewusstsein', 'Sport', 'Rumänien', 'Balkon', 'Linguist', 'Autodidakt'
+            ];
+
+            const svgElement = document.getElementById('wordCloud');
+
+            for (let i = 0; i < words.length; i++) {
+                const wordElement = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                wordElement.textContent = words[i];
+                wordElement.setAttribute('x', Math.random() * 450);
+                wordElement.setAttribute('y', Math.random() * 250);
+                wordElement.setAttribute('font-family', 'Arial');
+                wordElement.setAttribute('font-size', '12');
+
+                wordElement.addEventListener('mouseover', () => {
+                    wordElement.classList.add('highlight');
+                });
+
+                wordElement.addEventListener('mouseout', () => {
+                    wordElement.classList.remove('highlight');
+                });
+
+                svgElement.appendChild(wordElement);
+            }
+        </script> -->
+    </section>
     <!-- ------- projects ------  -->
     <section id="project" class="projects">
         <h1>Blog-Graphiken</h1>
