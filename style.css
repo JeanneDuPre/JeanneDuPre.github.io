@@ -294,36 +294,6 @@ nav .fa{
     }
 }
 /* --------BLOG------- */
-.blogs{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.blogs h1, p {
-    color: #a3a3a3;
-}
-.blogs-row{
-    margin-top:5%;
-    text-align: center;
-    /* display: flex; */
-}
-
-.blogs-row img{
-    max-width: 700px;
-    height: auto;
-    display: inline-block;
-    /* width: 80%;
-    height: 80%; */
-    object-fit: cover;
-    display: block;
-}
-
-@media(max-width: 700px){
-    .blogs-row{
-        flex-direction: column;
-    }
-}
 
 
 /* -------- footer ----  */
