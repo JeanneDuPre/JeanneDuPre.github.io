@@ -1,101 +1,152 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
     <title>Data Science Wiesemann</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <section class="header">
-        <nav>
-            <div class="nav-links" id="navLinks">
-                <i class= "fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html#projects">PROJEKTE</a></li>
-                    <li><a href="index.html#vita">VITA</a></li>
-                    <li><a href="work_in_progress.html">MILESTONES</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="index.html#footer">KONTAKT</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box_project">
-            <h1>Phasen einer Beziehung</h1>
-            <br>
-            <br>
-            <h3>Whatsapp Chat und Emojis</h3>
-            <h3>- eine explorative Untersuchung -</h2>
-            <h3>Data Analyst | Data Science</h2>
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html#projects">PROJEKTE</a></li>
+            <li><a href="index.html#vita">VITA</a></li>
+            <li><a href="work_in_progress.html">MILESTONES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="index.html#footer">KONTAKT</a></li>
+          </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box_project">
+        <h1>Phasen einer Beziehung</h1>
+        <br />
+        <br />
+        <h3>
+          1 Whatsapp Chat | 2017 - 2022<br />34754 Nachrichten | 529799 Emojis
+          <br />
+          208 verschiedene Emojis
+        </h3>
+        <br />
+        <h3>- eine explorative Untersuchung -</h3>
+        <h3>Data Analyst | Data Science</h3>
+      </div>
     </section>
     <section class="project">
-        <div>
-            <div class="project-row">
-                <div class="project-col">
-                    <a href="#piechart"><img src="images/projects_emoji/pie_chart_emoji.png" alt="Alle Emojis, die mehr als 3 % in den Nachrichten verwandt werden" /></a>
-                </div>
-                <div class="project-col">
-                    <a href="#linechart"><img src="images/projects_emoji/whatsapp_wandel_lebensereignisse.png" alt="Phasen einer Beziehung am Beispiel eines Whatsapp-Chats" /></a>
-                </div>
-                <div class="project-col">
-                    <a href="#wordcloud"><img src="images/projects_emoji/word_cloud_last_100_less_frequent_words.png" alt="WordCloud der 100 am wenigsten gebrauchten Wörter im Chat" /></a>
-                </div>
-            </div>
+      <div>
+        <div class="project-row">
+          <div class="project-col">
+            <a href="#piechart"
+              ><img
+                src="images/projects_emoji/pie_chart_emoji.png"
+                alt="Alle Emojis, die mehr als 3 % in den Nachrichten verwandt werden"
+            /></a>
+          </div>
+          <div class="project-col">
+            <a href="#linechart"
+              ><img
+                src="images/projects_emoji/whatsapp_wandel_lebensereignisse.png"
+                alt="Phasen einer Beziehung am Beispiel eines Whatsapp-Chats"
+            /></a>
+          </div>
+          <div class="project-col">
+            <a href="#wordcloud"
+              ><img
+                src="images/projects_emoji/word_cloud_last_100_less_frequent_words.png"
+                alt="WordCloud der 100 am wenigsten gebrauchten Wörter im Chat"
+            /></a>
+          </div>
         </div>
-        <div>
-            <div id="piechart" class="project-row">
-                <img src="images/projects_emoji/pie_chart_emoji.png" alt="Alle Emojis, die mehr als 3 % in den Nachrichten verwandt werden" />
-                <p>Alle Emojis, die mehr als 3 % in den Nachrichten verwandt werden</p>
-            </div>
-            <div id="linechart" class="project-row">
-                <img src="images/projects_emoji/whatsapp_wandel_lebensereignisse.png" alt="Phasen einer Beziehung" />
-                <p>Phasen einer Beziehung am Beispiel eines Whatsapp-Chats</p>
-            </div>
-            <div id="wordcloud" class="project-row">
-                <img src="images/projects_emoji/word_cloud_last_100_less_frequent_words.png" alt="WordCloud der 100 am wenigsten gebrauchten Wörter im Chat" />
-                <p>WordCloud der 100 am wenigsten gebrauchten Wörter im Chat...wann soll ich die bloß verwendet haben?</p>
-            </div>
-            <div class="project-row">
-                <img src="images/projects_emoji/whatsapp_emoji_versus_wörter_partner1_partner2.png" alt="Vergleich der verwendeten Emojis und Wörter je Partner im Vergleich" />
-                <p>Vergleich der verwendeten Emojis und Wörter je Partner im Vergleich</p>
-            </div>
-            <!-- <div class="projects-row">
+      </div>
+      <div>
+        <div id="piechart" class="project-row">
+          <img
+            src="images/projects_emoji/pie_chart_emoji.png"
+            alt="Alle Emojis, die mehr als 3 % in den Nachrichten verwandt werden"
+          />
+          <p>
+            Alle Emojis, die mehr als 3 % in den Nachrichten verwandt werden
+          </p>
+        </div>
+        <div id="linechart" class="project-row">
+          <img
+            src="images/projects_emoji/whatsapp_wandel_lebensereignisse.png"
+            alt="Phasen einer Beziehung"
+          />
+          <p>Phasen einer Beziehung am Beispiel eines Whatsapp-Chats</p>
+        </div>
+        <div id="wordcloud" class="project-row">
+          <img
+            src="images/projects_emoji/word_cloud_last_100_less_frequent_words.png"
+            alt="WordCloud der 100 am wenigsten gebrauchten Wörter im Chat"
+          />
+          <p>
+            WordCloud der 100 am wenigsten gebrauchten Wörter im Chat...wann
+            soll ich die bloß verwendet haben?
+          </p>
+        </div>
+        <div class="project-row">
+          <img
+            src="images/projects_emoji/whatsapp_emoji_versus_wörter_partner1_partner2.png"
+            alt="Vergleich der verwendeten Emojis und Wörter je Partner im Vergleich"
+          />
+          <p>
+            Vergleich der verwendeten Emojis und Wörter je Partner im Vergleich
+          </p>
+        </div>
+        <!-- <div class="projects-row">
                     <img src="images/projects_emoji/whatsapp_emoji_unique_median_mean.png" alt="Vergleich der unique Emojis im Zeitraum" />
             </div> -->
-        </div>
+      </div>
     </section>
     <!-- -------- Impressum --------  -->
-    <section id= "footer" class="footer">
-        <h4>Für mehr Informationen<br>folgen Sie bitte den Links.</h4>
-        <div id="contact" class="icons">
-            <a href="https://www.linkedin.com/in/janine-wiesemann-171285256"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/JeanneDuPre"><i class="fa fa-github"></i></a>
-<!--             <a href="m_contact.html"><h4>CONTACT ME</h4></a> -->
-            <a href="images/bewerbung/cv_wiesemann.1_page.pdf"><h4>Download CV</h4></a> 
-        </div>
+    <section id="footer" class="footer">
+      <h4>Für mehr Informationen<br />folgen Sie bitte den Links.</h4>
+      <div id="contact" class="icons">
+        <a href="https://www.linkedin.com/in/janine-wiesemann-171285256"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/JeanneDuPre"
+          ><i class="fa fa-github"></i
+        ></a>
+        <!--             <a href="m_contact.html"><h4>CONTACT ME</h4></a> -->
+        <a href="images/bewerbung/cv_wiesemann.1_page.pdf"
+          ><h4>Download CV</h4></a
+        >
+      </div>
     </section>
     <!-- impressum generator: https://www.impressum-generator.de/impressum-generator/ -->
     <section class="impressum">
-        <div>
-            <a href="impressum.html">Impressum</a>
-        </div>
+      <div>
+        <a href="impressum.html">Impressum</a>
+      </div>
     </section>
 
     <!-- -------JavaScript for Toggle Menu-------- -->
     <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
     </script>
-</body>
+  </body>
 </html>
