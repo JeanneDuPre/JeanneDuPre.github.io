@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Data Science Wiesemann</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html#projects">PROJEKTE</a></li>
+            <li><a href="index.html#vita">VITA</a></li>
+            <li><a href="work_in_progress.html">MILESTONES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="index.html#footer">KONTAKT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box_project">
+        <h1>How to get more views on LinkedIn</h1>
+        <br />
+        <br />
+        <br>
+          1. Strategie: Search for other people than data science<br />
+          2. Strategie: Connect with good MEDIUM writer<br />
+          3. Strategie: Automate the process of connecting
+        </h3>
+        <h3>- eine explorative Untersuchung -</h3>
+        <h3>Data Analyst | Data Science</h3>
+      </div>
+    </section>
+    <section class="project">
+      <div>
+        <div class="project-row">
+          <div class="project-col">
+            <img
+              src="images/projects_emoji/pie_chart_emoji.png"
+              alt="Verwandte Emojis"
+            />
+          </div>
+          <div class="project-col">
+            <img
+              src="images/projects_emoji/whatsapp_emoji_versus_wörter_partner1_partner2_uniqueEmojis.png"
+              alt="Phasen einer Beziehung am Beispiel eines Whatsapp-Chats"
+            />
+          </div>
+          <div class="project-col">
+            <img
+              src="images/projects_emoji/radar_chart_pro_year.png"
+              alt="Tägliche Whatsapp-Kommunikation in den Jahren Beziehung und Geburt"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------- Impressum --------  -->
+    <section id="footer" class="footer">
+      <h4>Für mehr Informationen<br />folgen Sie bitte den Links.</h4>
+      <div id="contact" class="icons">
+        <a href="https://www.linkedin.com/in/janine-wiesemann-171285256"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/JeanneDuPre"
+          ><i class="fa fa-github"></i
+        ></a>
+        <!--             <a href="m_contact.html"><h4>CONTACT ME</h4></a> -->
+        <a href="images/bewerbung/cv_wiesemann.1_page.pdf"
+          ><h4>Download CV</h4></a
+        >
+      </div>
+    </section>
+    <!-- impressum generator: https://www.impressum-generator.de/impressum-generator/ -->
+    <section class="impressum">
+      <div>
+        <a href="impressum.html">Impressum</a>
+      </div>
+    </section>
+
+    <!-- -------JavaScript for Toggle Menu-------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
